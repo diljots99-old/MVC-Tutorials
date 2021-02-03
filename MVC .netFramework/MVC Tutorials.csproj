@@ -12,8 +12,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MVC.netFramework</RootNamespace>
-    <AssemblyName>MVC.netFramework</AssemblyName>
+    <RootNamespace>MVC_Tutorials</RootNamespace>
+    <AssemblyName>MVC_Tutorials</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -120,6 +120,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ModelBindingController.cs" />
     <Compile Include="Controllers\ViewToController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -273,6 +274,8 @@
     <Content Include="Views\ViewTo\RequestObject.cshtml" />
     <Content Include="Views\ViewTo\QueryString.cshtml" />
     <Content Include="Views\ViewTo\ModelBinding.cshtml" />
+    <Content Include="Views\ModelBinding\Index.cshtml" />
+    <Content Include="Views\ModelBinding\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace MVC.netFramework.Models
+namespace MVC_Tutorials.Models
 {
     public class UserModel
 

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using MVC.netFramework.Models;
+using MVC_Tutorials.Models;
 
-namespace MVC.netFramework.Controllers
+namespace MVC_Tutorials.Controllers
 {
     public class ViewToController : Controller
     {
